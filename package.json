@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "css-build": "node-sass --omit-source-map-url public/stylesheets/sass/mystyles.scss public/stylesheets/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -12,5 +14,9 @@
     "hbs": "~4.0.1",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0"
   }
 }
