@@ -1,23 +1,59 @@
-<h1>This is the {{title}} page</h1>
 
-<div class="container">
-	<div style="text-align:center">
-		<h2>Contact Us</h2>
-		<p>Come see us to meet our feathery friends!</p>
-	</div>
-	<div class="row">
-		<div class="column">
-			<form action="/action_page.php">
-				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your name..">
-				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-				<label for="cemail">Email</label>
-				<input type="text" id="cemail" name="cemail" placeholder="Your email..">
-				<label for="message">Message</label>
-				<textarea id="message" name="message" placeholder="Write your message here" style="height:170px"></textarea>
-				<input type="submit" value="Submit">
-			</form>
+{{!-- Contact form start --}}
+<section class="section">
+	<div class="columns is-centered">
+		<div class="column is-half">
+			<div class="field">
+				<label class="label">Name</label>
+				<div class="control">
+					<input class="input" type="text" placeholder="Text input">
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">Email</label>
+				<div class="control has-icons-left has-icons-right">
+					<input class="input" type="email" placeholder="Email input">
+					<span class="icon is-small is-left">
+						<i class="fas fa-envelope"></i>
+					</span>
+					<span class="icon is-small is-right">
+						<i class="fas fa-exclamation-triangle"></i>
+					</span>
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">Subject</label>
+				<div class="control">
+					<div class="select">
+						<select>
+							<option>Reason for contact</option>
+							<option>Special bird request</option>
+							<option>Question about current birds</option>
+							<option>Question about services</option>
+							<option>Question about products</option>
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">Message</label>
+				<div class="control">
+					<textarea class="textarea" placeholder="Textarea"></textarea>
+				</div>
+			</div>
+
+			<div class="field is-grouped">
+				<div class="control">
+					<button class="button is-link">Submit</button>
+				</div>
+				<div class="control">
+					<button class="button is-text">Cancel</button>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
+{{!-- Contact form end --}}

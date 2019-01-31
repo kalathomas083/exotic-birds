@@ -1,2 +1,6 @@
 @charset "utf-8";
+@import 'parts/mixins';
+@import 'parts/variables';
+@import 'parts/home';
+
 @import "../../../node_modules/bulma/bulma.sass";

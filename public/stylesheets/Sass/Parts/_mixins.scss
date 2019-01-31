@@ -1,0 +1,10 @@
+@mixin backImage($image, $color1: $primary, $grad1: 0, $color2: $primary, $grad2: .5, $scroll: scroll) {
+	background-image:
+		linear-gradient(rgba($color1, $grad1), rgba(91, 169, 0, $grad2)),
+		url($image);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: $scroll;
+}

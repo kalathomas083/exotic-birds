@@ -1,0 +1,6 @@
+.photo-header {
+	@include backImage("/public/images/no-rights/jungle.jpg",$primary, 1, $primary, 0);
+	width: 100vw;
+	height: 30vh;
+	// background-image: url("/public/images/no-rights/jungle.jpg");
+}
