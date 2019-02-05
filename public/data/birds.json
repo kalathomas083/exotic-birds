@@ -1,0 +1,20 @@
+{
+ "birds": [
+
+ 	{
+ 		"name": "african gray",
+ 		"photo": "ag.jpeg",
+ 		"size": "medium",
+ 		"lifespan": "50 y",
+ 		"link": "moreinfo.com"
+	},
+	{
+		"name": "green cheek",
+		"photo": "ag.jpeg",
+		"size": "medium",
+		"lifespan": "50 y",
+		"link": "moreinfo.com"
+	}
+	 
+ ]
+}
