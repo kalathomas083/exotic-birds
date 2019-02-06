@@ -12,10 +12,10 @@ router.get('/birds', function(req, res, next) {
   res.render('birds', {title: "Birds", json});
 });
 router.get('/services', function(req, res, next) {
-  res.render('services', {title: "Services"});
+  res.render('services', {title: "Services", json});
 });
 router.get('/products', function(req, res, next) {
-  res.render('products', {title: "Products"});
+  res.render('products', {title: "Products", json});
 });
 router.get('/contact-us', function(req, res, next) {
   res.render('contact', {title: "Contact Us"});

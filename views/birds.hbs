@@ -7,7 +7,7 @@
 				Meet our flock
 			</h1>
 			<h2 class="subtitle">
-				We offer a large range of parrots from parrotlets to hyacinth macaw!
+				We offer a large range of parrots from parrotlets to hyacinth macaws!
 			</h2>
 		</div>
 	</div>
@@ -16,19 +16,42 @@
 {{!-- test start --}}
 
 
-	{{!-- {{#each json.birds}}
-	<p>{{name}}</p>
-	{{/each}} --}}
+
 {{!-- test end --}}
 
 {{!-- Bird section start--}}
+
+{{!-- bird secton general --}}
+<div class="section">
+	<div class="container notification is-warning">
+		
+		<h2 class="title">The Exotic Birds of Denver Difference</h2>
+		<p class="content">Exotic Birds of Denver carries the largest selection of baby parrots in the state of Colorado. We hand feed all our babies. Because of this, they are more socialized and able to easily adapt into your home environment.</p>
+		<p class="content">We do not force wean our babies; they are weaned as determined by individual needs. All parrots are fully fledged before wing trims occur. Taking these extra steps, ensures a socially adjusted parrot and decreases future behavioral problems.</p>
+		<p class="content">Special orders welcomed. If we currently do not have the parrot you are looking for we can order.</p>  
+	</div>
+</div>
+
+
+{{!-- bird table --}}
+
+<section class="section">
+	<div class="hero is-primary">
+		<div class="hero-body is-bold">
+			<div class="container">
+				<h1 class="title">
+					Learn more
+				</h1>
+			</div>
+		</div>
+	</div>
 <div>
 	<table class="table is-fullwidth">
 		<thead>
 			<th>Name</th>
 			<th>Size</th>
-			<th>3</th>
-			<th>4</th>
+			<th>Lifespan</th>
+			<th>More Info</th>
 		</thead>
 		<tbody>
 			{{#each json.birds}}
@@ -44,117 +67,12 @@
 
 		</tfoot>
 	</table>
+</div>
+</section>
 
 </div>
 
 
-<section class="section">
-	<div class="container">
-		<div class="tile is-ancestor">
-			<div class="tile is-parent">
-				<div class="tile is-child">
-					<div class="card">
-						<div class="card-image">
-							<figure class="image is-4by3">
-								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-									</figure>
-								</div>
-								<div class="media-content">
-									<p class="title is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
-								</div>
-							</div>
-					
-							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tile is-child">
-					<div class="card">
-						<div class="card-image">
-							<figure class="image is-4by3">
-								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-									</figure>
-								</div>
-								<div class="media-content">
-									<p class="title is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
-								</div>
-							</div>
-					
-							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="tile is-child">
-					<div class="card">
-						<div class="card-image">
-							<figure class="image is-4by3">
-								<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-							</figure>
-						</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-									</figure>
-								</div>
-								<div class="media-content">
-									<p class="title is-4">John Smith</p>
-									<p class="subtitle is-6">@johnsmith</p>
-								</div>
-							</div>
-					
-							<div class="content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-								<a href="#">#css</a> <a href="#">#responsive</a>
-								<br>
-								<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+
 
 {{!-- Bird section end --}}
-
-<p>
-	Special orders welcomed. If we currently do not have the parrot you are looking for we can order.
-</p>  
-<p>
-	Exotic Birds of Denver carries the largest selection of baby parrots in the state of Colorado. We hand feed all our babies. Because of this, they are more socialized and able to easily adapt into your home environment.
-</p>
-<p>
-	We do not force wean our babies; they are weaned as determined by individual needs. All parrots are fully fledged before wing trims occur. Taking these extra steps, ensures a socially adjusted parrot and decreases future behavioral problems.
-</p>

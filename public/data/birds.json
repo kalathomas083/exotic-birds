@@ -1,20 +1,58 @@
 {
- "birds": [
-
- 	{
- 		"name": "african gray",
- 		"photo": "ag.jpeg",
- 		"size": "medium",
- 		"lifespan": "50 y",
- 		"link": "moreinfo.com"
+	"birds": [
+		{
+			"name": "african gray",
+			"photo": "ag.jpeg",
+			"size": "medium",
+			"lifespan": "50 y",
+			"link": "moreinfo.com"
+		},
+		{
+			"name": "green cheek",
+			"photo": "ag.jpeg",
+			"size": "medium",
+			"lifespan": "50 y",
+			"link": "moreinfo.com"
+		}
+	],
+	"products": {
+		"cages": [
+			{
+				"size": "20cm",
+				"good-for": "Cockatiels, lovebird"
+			}
+		],
+		"stands": [		],
+		"food": [
+			{
+				"name": "Roudybush",
+				"good-for": "Parrots"
+			}
+		],
+		"toys": [ "photo1", "photo2" ]
 	},
-	{
-		"name": "green cheek",
-		"photo": "ag.jpeg",
-		"size": "medium",
-		"lifespan": "50 y",
-		"link": "moreinfo.com"
-	}
-	 
- ]
+	"services": [
+		{
+			"birds": "Cockatiels, Lovebirds, Budgies",
+			"cost": "$15.00"
+		},
+		{
+			"birds": "All other small parrots",
+			"cost": "$20.00"
+		},
+		{
+			"birds": "Greys and Eclectus",
+			"cost": "$25.00"
+		},
+		{
+			"birds": "Amazons, Small cockatoos and Small Macaws",
+			"cost": "$25.00"
+		},
+		{
+			"birds": "Large cockatoos and Large Macaws",
+			"cost": "$30.00"
+		}
+	]
+		
+	
 }

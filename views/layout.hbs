@@ -1,54 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/mystyles.css' />
-  </head>
-  <body>
-    <!-- Navbar start -->
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <h1>Exotic Birds of Denver</h1>
-        </a>
-    
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-    
-      <div id="navbarBasicExample" class="navbar-menu">
-        <!-- Navbar-start: appears on the left -->
-        <div class="navbar-start">
-          <!-- each item here should be in an anchor tag and have the class "navbar-item" -->
-          <a class="navbar-item" href="/birds">Birds</a>
-          <a class="navbar-item" href="/products">Products</a>
-          <a class="navbar-item" href="/services">Services</a>
-        </div>
-    
-        <!-- Navbar-end: appears on the right -->
-        <div class="navbar-end">
-          <div class="navbar-item">
-          <a class="navbar-item" href="/contact-us">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar end -->
-    {{{body}}}
+<html class="has-navbar-fixed-top">
 
-    <footer class="footer">
-      <div class="content has-text-centered">
-      <p>Come visit us!</p>
-      <p>
-        {{address}}
-        {{phone-number}}
-      </p>
+<head>
+	<title>{{title}}</title>
+	<link rel='stylesheet' href='/stylesheets/mystyles.css' />
+</head>
 
-      </div>
-    </footer>
-  </body>
-    <script type="text/javascript" src="/javascripts/scripts.js"></script>
+<body>
+	<!-- Navbar start -->
+	<nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<h1>Exotic Birds of Denver</h1>
+			</a>
+
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div id="navbarBasicExample" class="navbar-menu">
+			<!-- Navbar-start: appears on the left -->
+			<div class="navbar-start">
+				<!-- each item here should be in an anchor tag and have the class "navbar-item" -->
+				<a class="navbar-item" href="/birds">Birds</a>
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link" href="/products">Products</a>
+					<div class="navbar-dropdown">
+						<a href="/products#cages" class="navbar-item">Cages</a>
+						<a href="/products#stands" class="navbar-item">Stands</a>
+						<a href="/products#food" class="navbar-item">Food</a>
+						<a href="/products#toys" class="navbar-item">Toys</a>
+					</div>
+				</div>
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link" href="/services">Services</a>
+					<div class="navbar-dropdown">
+						<a href="/services#grooming" class="navbar-item">Grooming</a>
+						<a href="/services#boarding" class="navbar-item">Boarding</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Navbar-end: appears on the right -->
+			<div class="navbar-end">
+				<a class="navbar-item" href="tel:+13039315554">303-931-5554</a>
+				<a class="navbar-item" href="/contact-us">Contact Us</a>
+
+			</div>
+		</div>
+	</nav>
+	<!-- Navbar end -->
+	{{{body}}}
+
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>Come visit us!</p>
+			<p>
+				{{address}}
+				{{phone-number}}
+			</p>
+
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="/javascripts/scripts.js"></script>
+
 </html>

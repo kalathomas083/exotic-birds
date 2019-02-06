@@ -1,8 +1,69 @@
-<h1>This is the {{title}} page</h1>
+<section class="hero is-primary">
+	<div class="hero-body is-bold">
+		<div class="container">
+			<h1 class="title">
+				Services
+			</h1>
+			<h2 class="subtitle">
+				We help you take care of your feathered friends even after purchase!
+			</h2>
+		</div>
+	</div>
+</section>
 
-We can help you with everyday care of your birds.
+<section class="section" id="grooming">
+	<div class="hero is-primary">
+		<div class="hero-body is-bold">
+			<div class="container">
+				<h1 class="title">
+					Grooming
+				</h1>
+				<h2 class="subtitle">Birdman Dave can help keep your feathery buddy healthy and looking beautiful</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<p class="content">
+			Grooming services includes the folling: Wings, Nails, and Beak
+		</p>
 
-<ul>
-	<li>Grooming</li>
-	<li>Boarding</li>
-</ul>
+		<p class="content">
+			To avoid stress and injury for the parrot, they are wrapped in a towel to groom.
+		</p>
+		<div>
+			<table class="table is-fullwidth">
+				<thead>
+					<th>Birds</th>
+					<th>Cost</th>
+				</thead>
+				<tbody>
+					{{#each json.services}}
+					<tr>
+						<td>{{birds}}</td>
+						<td>{{cost}}</td>
+					</tr>
+					{{/each}}
+				</tbody>
+				<tfoot>
+
+				</tfoot>
+			</table>
+		</div>
+
+	</div>
+</section>
+
+<section class="section" id="boarding">
+	<div class="hero is-primary">
+		<div class="hero-body is-bold">
+			<div class="container">
+				<h1 class="title">
+					Boarding
+				</h1>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		Leave your feather baby with us while you're out of town. Our bird experts will make sure your bird is well looked after until you return from your latest adventure!
+	</div>
+</section>
