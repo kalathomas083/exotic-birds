@@ -1,0 +1,41 @@
+{
+	"grooming": [{
+			"birds": "Cockatiels, Lovebirds, Budgies",
+			"cost": "$15.00"
+		},
+		{
+			"birds": "All other small parrots",
+			"cost": "$20.00"
+		},
+		{
+			"birds": "Greys and Eclectus",
+			"cost": "$25.00"
+		},
+		{
+			"birds": "Amazons, Small cockatoos and Small Macaws",
+			"cost": "$25.00"
+		},
+		{
+			"birds": "Large cockatoos and Large Macaws",
+			"cost": "$30.00"
+		}
+	],
+	"boarding": [
+		{
+			"birds": "Cockatiels, Lovebirds, and Budgies",
+			"cost": "$10.00"
+		},
+		{
+			"birds": "All other small parrots",
+			"cost": "$11.00"
+		},
+		{
+			"birds": "Grey, Eclectus, Amazons, small Cockatoos and Macaws",
+			"cost": "$11.00"
+		},
+		{
+			"birds": "Large cockatoos and Macaws",
+			"cost": "$11.00"
+		}
+	]
+}

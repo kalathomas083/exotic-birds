@@ -1,0 +1,14 @@
+	{
+		"products": {
+			"cages": [{
+				"size": "20cm",
+				"good-for": "Cockatiels, lovebird"
+			}],
+			"stands": [],
+			"food": [{
+				"name": "Roudybush",
+				"good-for": "Parrots"
+			}],
+			"toys": ["photo1", "photo2"]
+		}
+	}

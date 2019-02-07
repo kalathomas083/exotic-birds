@@ -22,35 +22,29 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<p class="content">
-			Grooming services includes the folling: Wings, Nails, and Beak
-		</p>
-
-		<p class="content">
-			To avoid stress and injury for the parrot, they are wrapped in a towel to groom.
-		</p>
-		<div>
-			<table class="table is-fullwidth">
+	<div class="container notification">
+		<div class="content">
+			<p>Birdman Dave will trim your bird's wings, nails, and beak.  Normal grooming days: Mon-Wed-Fri: 11 am till 6 pm and every other Saturday: 1 pm till 5 pm but we recommend calling ahead to schedule!</p>
+			<p>To avoid stress and injury for the parrot, they are wrapped in a towel to groom.</p>
+			<p>Please contact Exotic Birds of Denver for Additional Information</p>
+		</div>
+	</div>
+		<div class="container">
+			<table class="table is-fullwidth is-striped is-narrow">
 				<thead>
 					<th>Birds</th>
 					<th>Cost</th>
 				</thead>
 				<tbody>
-					{{#each json.services}}
+					{{#each services.grooming}}
 					<tr>
 						<td>{{birds}}</td>
 						<td>{{cost}}</td>
 					</tr>
 					{{/each}}
 				</tbody>
-				<tfoot>
-
-				</tfoot>
 			</table>
 		</div>
-
-	</div>
 </section>
 
 <section class="section" id="boarding">
@@ -60,10 +54,45 @@
 				<h1 class="title">
 					Boarding
 				</h1>
+				<h2 class="subtitle">Leave your feather baby with us while you're out of town. Our bird experts will make sure your bird is well looked after until you return from your latest adventure!</h2>
 			</div>
 		</div>
 	</div>
+	<div class="container notification">
 	<div class="content">
-		Leave your feather baby with us while you're out of town. Our bird experts will make sure your bird is well looked after until you return from your latest adventure!
+	<div class="title is-4">Boarding Basics</div>
+			<ul>
+				<li>Boarding rates apply the day the Parrot is dropped off. (The next day fee starts at 11 am the preceding day.)</li>
+				<li>Multi-bird discounts and longer-stay discounts available (Call for quotes)</li>
+				<li>After hours drop offs, or after hour pick up, add 1 day of boarding fees.</li>
+				<li>Cages and food for boarding are provided by Exotic Birds of Denver.</li>
+				<li>Diet: </li>
+					<ul>
+						<li>
+						Cooked food plus vegetables Roudybush Pellets in cages at all times.</li>
+					<li>Daily Treats Provided: Dried fruit and shelled nuts Nuts in the shell (for parrots that require more fat in their diet)</li>
+					<li>WE DO NOT give parrots peanuts or sunflower seeds unless requested</li>
+					</ul>
+				<li><strong>Note</strong>: All Parrots not purchased at Exotic Birds of Denver within the last 3 years we will need veterinarian health certificates.</li>
+			</ul>
+
+	</div>
+	</div>
+
+	<div class="container">
+		<table class="table is-fullwidth is-striped is-narrow">
+			<thead>
+				<th>Birds</th>
+				<th>Cost per day</th>
+			</thead>
+			<tbody>
+				{{#each services.boarding}}
+				<tr>
+					<td>{{birds}}</td>
+					<td>{{cost}}</td>
+				</tr>
+				{{/each}}
+			</tbody>
+		</table>
 	</div>
 </section>
