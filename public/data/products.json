@@ -1,8 +1,32 @@
 	{
 		"products": {
 			"cages": [{
-				"size": "20cm",
-				"good-for": "Cockatiels, lovebird"
+				"good-for": "Cockatiels, Lovebirds, Budgies",
+				"size": "18” x 18” x 18”"
+			}, 
+			{
+				"good-for": "Small Parrots (Senegal, Caiques, Meyers Etc.)",
+				"size": "22” x 17” x 32”"
+			}, 
+			{
+				"good-for": "Medium Parrots (Greys, Eclectus, Amazons Etc.)",
+				"size": "32” x 23” x 32”"
+			}, 
+			{
+				"good-for": "Small Cockatoos, Small Macaws",
+				"size": "32” x 23” x 32”"
+			}, 
+			{
+				"good-for": "Umbrella Cockatoo, Blue Gold Macaw",
+				"size": "36” x 24” x 48”"
+			}, 
+			{
+				"good-for": "Moluccan, Triton Cockatoos, And Green Wing Macaw",
+				"size": "40” x 30” x 52”"
+			}, 
+			{
+				"good-for": "Hyacinth Macaw",
+				"size": "48” x 36” x 60”"
 			}],
 			"stands": [],
 			"food": [{

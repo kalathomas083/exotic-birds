@@ -1,15 +1,41 @@
-.photo-header {
-  background-image: linear-gradient(#016d74, rgba(91, 169, 0, 0)), url("/public/images/no-rights/jungle.jpg");
+body {
+  background-color: #DFDADB; }
+
+.home-header {
+  background-image: linear-gradient(#016d74, rgba(91, 169, 0, 0)), url("/public/images/open-source/ben-kolde-635327-unsplash.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
-  width: 100vw;
-  height: 30vh; }
+  background-attachment: fixed;
+  background-position: 0 65%; }
 
-body {
-  background-color: #DFDADB; }
+.birds-header {
+  background-image: linear-gradient(#016d74, rgba(91, 169, 0, 0)), url("/public/images/open-source/alan-godfrey-509414-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.services-header {
+  background-image: linear-gradient(#016d74, rgba(91, 169, 0, 0)), url("/public/images/open-source/bogdan-pasca-1102840-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom; }
+
+.products-header {
+  background-image: linear-gradient(#016d74, rgba(91, 169, 0, 0)), url("/public/images/open-source/jonatan-lewczuk-1124453-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center; }
 
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

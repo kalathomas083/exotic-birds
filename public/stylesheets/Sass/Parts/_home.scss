@@ -1,10 +1,21 @@
-.photo-header {
-	@include backImage("/public/images/no-rights/jungle.jpg",$primary, 1, $primary, 0);
-	width: 100vw;
-	height: 30vh;
-	// background-image: url("/public/images/no-rights/jungle.jpg");
-}
 
 body {
 	background-color: $background;
+}
+
+// Photo headers
+.home-header {
+	@include photoHeader("/public/images/open-source/ben-kolde-635327-unsplash.jpg",$primary, 1, $primary, 0, 0 65%);
+}
+
+.birds-header {
+	@include photoHeader("/public/images/open-source/alan-godfrey-509414-unsplash.jpg", $primary, 1, $primary, 0, center);
+}
+
+.services-header {
+	@include photoHeader("/public/images/open-source/bogdan-pasca-1102840-unsplash.jpg", $primary, 1, $primary, 0, bottom);
+}
+
+.products-header {
+	@include photoHeader("/public/images/open-source/jonatan-lewczuk-1124453-unsplash.jpg", $primary, 1, $primary, 0, top center);
 }

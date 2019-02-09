@@ -1,4 +1,5 @@
-<section class="hero is-primary">
+{{!-- hero section start --}}
+<section class="hero is-primary products-header is-large">
 	<div class="hero-body is-bold">
 		<div class="container">
 			<h1 class="title">
@@ -9,7 +10,7 @@
 			</h2>
 		</div>
 	</div>
-</section>
+</section>  {{!-- hero section end --}}
 
 <section class="section" id="cages">
 	<div class="hero is-primary">
@@ -24,6 +25,24 @@
 	<div class="content">
 		Find a comfortable resting place for your bird to go every night.
 	</div>
+
+	<div class="container">
+		<table class="table is-fullwidth is-striped is-narrow">
+			<thead>
+				<th>Cage Size</th>
+				<th>Good for</th>
+			</thead>
+			<tbody>
+				{{#each products.products.cages}}
+				<tr>
+					<td>{{size}}</td>
+					<td>{{good-for}}</td>
+				</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+
 </section>
 <section class="section" id="stands">
 	<div class="hero is-primary">
@@ -58,12 +77,12 @@
 		<div class="hero-body is-bold">
 			<div class="container">
 				<h1 class="title">
-					Cages
+					Toys
 				</h1>
 			</div>
 		</div>
 	</div>
 	<div class="content">
-		Find the right cage for your bird.
+		Keep your bird entertained while you're away with our wide selection of bird-safe toys.
 	</div>
 </section>
