@@ -1,5 +1,5 @@
 {{!-- hero section start --}}
-<section class="hero is-primary products-header is-large">
+<section class="hero is-primary products-header is-medium">
 	<div class="hero-body is-bold">
 		<div class="container">
 			<h1 class="title">
@@ -10,22 +10,26 @@
 			</h2>
 		</div>
 	</div>
-</section>  {{!-- hero section end --}}
+</section> {{!-- hero section end --}}
 
+{{!-- cages section start --}}
 <section class="section" id="cages">
-	<div class="hero is-primary">
+	<div class="hero is-primary products-header">
 		<div class="hero-body is-bold">
 			<div class="container">
 				<h1 class="title">
 					Cages
 				</h1>
+				<h2 class="subtitle">
+					Find a comfortable resting place for your bird to go every night.
+				</h2>
 			</div>
 		</div>
 	</div>
 	<div class="content">
-		Find a comfortable resting place for your bird to go every night.
 	</div>
 
+	{{!-- cages main content --}}
 	<div class="container">
 		<table class="table is-fullwidth is-striped is-narrow">
 			<thead>
@@ -44,45 +48,114 @@
 	</div>
 
 </section>
+{{!-- cages section end --}}
+
+{{!-- stands section start --}}
 <section class="section" id="stands">
-	<div class="hero is-primary">
+	<div class="hero is-primary products-header">
 		<div class="hero-body is-bold">
 			<div class="container">
 				<h1 class="title">
 					Stands
 				</h1>
+				<h2 class="subtitle">Find a nice perch for your bird to hang out with you outside his cage.</h2>
 			</div>
 		</div>
 	</div>
-	<div class="content">
-		Find a nice perch for your bird to hang out with you outside his cage.
+
+	<div class="container notification">
+		<div class="">
+			<div class='carousel carousel-animated carousel-animate-fade'>
+				<div class='carousel-container'>
+					{{#each products.products.stands}}
+					<div class='carousel-item has-background is-active'>
+						<img class="is-background" src="{{photo-src}}" alt="" width="640" height="310" />
+						<div class="title">{{title}}</div>
+					</div>
+					{{/each}}
+				</div>
+				<div class="carousel-navigation">
+					<div class="carousel-nav-left">
+						<i class="fa fa-chevron-left" aria-hidden="true"></i>
+					</div>
+					<div class="carousel-nav-right">
+						<i class="fa fa-chevron-right" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </section>
+{{!-- stands section end --}}
+
+{{!-- food section start --}}
 <section class="section" id="food">
-	<div class="hero is-primary">
+	<div class="hero is-primary products-header">
 		<div class="hero-body is-bold">
 			<div class="container">
 				<h1 class="title">
 					Food
 				</h1>
+				<h2 class="subtitle">
+					Keep your bird healthy with the Birdman's top nutrition picks
+				</h2>
 			</div>
 		</div>
 	</div>
-	<div class="content">
-		Keep your bird healthy with the Birdman's top nutrition picks
+	<div class="container notification">
+		<div class="content">
+			<h3 class="title is-4">Recommendation of Feeding:*</h3>
+			<ul>
+				<li>Cooked Food and Vegetables</li>
+				<li>Daily Pellets in Cages at all times</li>
+				<li>Nuts and Seeds – 2 to 3 times Weekly</li>
+				<li>Minerals, Vitamins, Palm Oil and Calcium three times per week.</li>
+			</ul>
+			<p>*Exotic Birds of Denver may recommend different supplements or diets for specific species of parrots.</p>
+
+			Exotic Birds of Denver carries a large selection of parrot foods, both in bulk and by the bags. Guaranteed to be fresh, food arrives weekly.
+			
+			<h3 class="title is-4">We carry the following brands*:</h3>
+			
+			<ul>
+				<li>Roudybush</li>
+				<li>Zupreem Harrisons</li>
+				<li>Volkman</li>
+				<li>Bird Street Bistro</li>
+				<li>Lafebres</li>
+				<li>Specialty blends of shelled nuts and dried fruits</li>
+			</ul>
+			<p>*Can be purchased by the pound or in bulk.</p>
+		</div>
 	</div>
 </section>
-<section class="section" id="Cages">
-	<div class="hero is-primary">
+{{!-- food section end --}}
+
+{{!-- cages section start --}}
+<section class="section" id="cages">
+	<div class="hero is-primary products-header">
 		<div class="hero-body is-bold">
 			<div class="container">
 				<h1 class="title">
 					Toys
 				</h1>
+				<h2 class="subtitle">
+					Keep your bird entertained while you're away with our wide selection of bird-safe toys.
+				</h2>
 			</div>
 		</div>
 	</div>
-	<div class="content">
-		Keep your bird entertained while you're away with our wide selection of bird-safe toys.
+	<div class="container notification">
+		<div class="content">
+			<p>Providing toys are an essential part of a parrot’s mental health.</p>
+			<p>We design our own unique acrylic and wood toys. We also carry a large selection of other toy companies parrot toys.</p>
+			<p>Parrots need toys for destruction, forging and interaction to stimulate their intelligence and keep them entertained. Keep in mind parrots have the intelligence of a five year old child. Parrots love to play and interact with toys and people.</p>
+			<p>Recommendations: 4 to 5 toys per cage, play gym top cages should have 1 to 2 additional toys.</p>
+			<p>Change at least one toy every week to avoid boredom.</p>
+			<p>Parrots that are happy, active and entertained exhibit few or no behavioral problems.</p>
+			<p>Note: All acrylic toys are dishwasher safe.</p>
+		</div>
 	</div>
 </section>
+{{!-- cages section end --}}

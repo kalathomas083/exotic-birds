@@ -3,7 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
 var indexRouter = require('./routes/home');
 var usersRouter = require('./routes/users');
 
@@ -19,6 +18,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public'))); //not sure this is needed because of the next line
 app.use("/public", express.static(__dirname + "/public"));
+app.use('/fonts', express.static('./node_modules/font-awesome/'))
+
 
 
 app.use('/', indexRouter);

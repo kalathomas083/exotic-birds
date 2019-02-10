@@ -28,11 +28,29 @@
 				"good-for": "Hyacinth Macaw",
 				"size": "48” x 36” x 60”"
 			}],
-			"stands": [],
+			"stands": [
+				{
+					"photo-src": "http://via.placeholder.com/640x360",
+					"title":"Round stand"
+				},
+				{
+					"photo-src": "http://via.placeholder.com/640x360",
+					"title": "Hanging branch stand"
+				},
+				{
+					"photo-src": "http://via.placeholder.com/640x360",
+					"title": "Floor branch stand"
+				},
+				{
+					"photo-src": "http://via.placeholder.com/640x360",
+					"title": "Small round stand"
+				}
+			],
 			"food": [{
 				"name": "Roudybush",
 				"good-for": "Parrots"
 			}],
 			"toys": ["photo1", "photo2"]
 		}
+
 	}
