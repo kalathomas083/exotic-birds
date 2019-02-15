@@ -1,6 +1,6 @@
 @mixin photoHeader($image, $color1: $primary, $grad1: 0, $color2: $primary, $grad2: .5, $bp: center) {
 	background-image:
-		linear-gradient(rgba($color1, $grad1), rgba(91, 169, 0, $grad2)),
+		linear-gradient(rgba($color1, $grad1), rgba($color2, $grad2)),
 		url($image);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

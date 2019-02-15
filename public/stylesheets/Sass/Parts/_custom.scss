@@ -3,9 +3,23 @@ body {
 	background-color: $background;
 }
 
+//global custom styles
+.has-box-shadow {
+	box-shadow: 1px 1px 2px rgba(black, .5);
+}
+footer {
+	padding: 1rem;
+}
+
+//home page
+#welcome_to_EBOD {
+	margin-top: 10px;
+}
+
+
 // Photo headers
 .home-header {
-	@include photoHeader("/public/images/open-source/ben-kolde-635327-unsplash.jpg",$primary, 1, $primary, 0, 0 65%);
+	@include photoHeader("/public/images/open-source/ben-kolde-635327-unsplash.jpg",$primary, 1, white, .3, 0 65%);
 }
 
 .birds-header {
