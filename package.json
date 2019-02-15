@@ -5,7 +5,8 @@
   "scripts": {
     "css-build": "node-sass --omit-source-map-url public/stylesheets/sass/mystyles.scss public/stylesheets/mystyles.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "node ./bin/www"
+    "start-server": "node ./bin/www",
+    "start": "npm run css-watch | npm run start-server"
   },
   "dependencies": {
     "bulma-carousel": "^3.0.0",
