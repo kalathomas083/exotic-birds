@@ -19,7 +19,7 @@ footer {
 
 // Photo headers
 .home-header {
-	@include photoHeader("/public/images/open-source/ben-kolde-635327-unsplash.jpg",$primary, 1, white, .3, 0 65%);
+	@include photoHeader("/public/images/open-source/ben-kolde-635327-unsplash.jpg",$primary, 1, black, .3, bottom);
 }
 
 .birds-header {
