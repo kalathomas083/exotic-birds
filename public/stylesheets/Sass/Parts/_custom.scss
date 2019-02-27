@@ -37,3 +37,7 @@ footer {
 .products-header {
 	@include photoHeader("/public/images/open-source/jonatan-lewczuk-1124453-unsplash.jpg", $primary, 1, $primary, 0, top center);
 }
+
+.contact-header {
+	@include photoHeader("/public/images/open-source/jonah-pettrich-549680-unsplash.jpg", $primary, 1, $primary, 0, top center);
+}
