@@ -16,10 +16,10 @@
     "font-awesome": "^4.7.0",
     "hbs": "^4.0.3",
     "http-errors": "^1.7.2",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "bulma": "^0.7.4"
   },
   "devDependencies": {
-    "bulma": "^0.7.4",
     "node-sass": "^4.11.0"
   }
 }
